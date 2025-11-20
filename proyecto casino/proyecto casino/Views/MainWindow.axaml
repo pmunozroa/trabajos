@@ -1,0 +1,203 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="750"
+        x:Class="proyecto_casino.Views.MainWindow"
+        Title="C#asino"
+        Background="#111111"
+        TransparencyLevelHint="AcrylicBlur"
+        Width="1000" Height="750">
+
+    <Window.Styles>
+        <Style Selector="TextBlock">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+        <Style Selector="TextBox">
+            <Setter Property="Background" Value="#222"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="CaretBrush" Value="White"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+        <Style Selector="Button">
+            <Setter Property="Background" Value="#333"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="White"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        <Style Selector="TabItem">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="LightGray"/>
+        </Style>
+        <Style Selector="TabItem:selected">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#444"/>
+        </Style>
+        <Style Selector="RadioButton">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+    </Window.Styles>
+
+    <Grid>
+        <ScrollViewer>
+        <StackPanel x:Name="PantallaLogin" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="20" IsVisible="True">
+            <Border BorderBrush="White" BorderThickness="2" Padding="40" Background="#000">
+                 
+
+                <StackPanel Spacing="15">
+                    <TextBlock Text="CASINO C#" FontSize="40" FontWeight="Bold" Foreground="Gold" Margin="0,0,0,20"/>
+                    
+                    <TextBlock Text="-- INICIAR SESION --" FontSize="18"/>
+                    <TextBox x:Name="txtUsuario" Watermark="Usuario" Width="250"/>
+                    <TextBox x:Name="txtPass" Watermark="Contrasenia" PasswordChar="*" Width="250"/>
+                    <Button Content="ENTRAR" Padding="30,10" Click="BtnEntrar_Click" Background="DarkBlue"/>
+                    <Button Content="invitado" Padding="30,10" Click="ModoInvitado" Background="DarkBlue"/>
+
+                    <Separator Margin="0,20"/>
+
+                    <TextBlock Text="-- REGISTRO --" FontSize="18"/>
+                    <TextBox x:Name="txtRegUser" Watermark="Nuevo Usuario" Width="250"/>
+                    <TextBox x:Name="txtRegPass" Watermark="Nueva Contrasenia" PasswordChar="*" Width="250"/>
+                    <Button Content="CREAR CUENTA USUARIO" Padding="20,10" Click="BtnRegistrar_Click"/>
+                    <Button Content="CREAR CUENTA VIP" Padding="20,10" Click="btregistrovip"/>
+
+                    <TextBlock x:Name="txtMensajeLogin" Text="" FontSize="16" Foreground="Red" Margin="10"/>
+                </StackPanel>
+                    
+            </Border>
+        </StackPanel>
+         </ScrollViewer>
+        <Grid x:Name="PantallaJuegos" IsVisible="False" RowDefinitions="Auto, *">
+            
+            <Border Grid.Row="0" Background="#222" Padding="10">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="10">
+                    <TextBlock Text="FICHAS:" FontSize="24" VerticalAlignment="Center" FontWeight="Bold"/>
+                    <TextBlock x:Name="txtSaldoGlobal" Text="1000" FontSize="24" VerticalAlignment="Center" Foreground="Gold" FontWeight="Bold"/>
+                </StackPanel>
+            </Border>
+
+            <TabControl Grid.Row="1" Margin="10">
+                
+                <TabItem Header="Blackjack">
+                    <StackPanel Margin="20" Spacing="15" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock Text="Blackjack" FontSize="40"/>
+                        
+                        <StackPanel Orientation="Horizontal" Spacing="10">
+                            <TextBlock Text="Apuesta:" VerticalAlignment="Center"/>
+                            <TextBox x:Name="txtApuestaBJ" Width="100" Text="50"/>
+                            <Button Content="JUGAR / REPARTIR" Click="BtnIniciarBJ_Click" Background="DarkGreen"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Spacing="40" Margin="0,20">
+                            <StackPanel>
+                                <TextBlock x:Name="txtCartasJugador" Text="Tus cartas: 0" FontSize="25"/>
+                            </StackPanel>
+                            <StackPanel>
+                                <TextBlock x:Name="txtCartasCrupier" Text="Crupier: ?" FontSize="25"/>
+                            </StackPanel>
+                        </StackPanel>
+
+                        <TextBlock x:Name="txtResultadoBlackjack" Text="" FontSize="30" FontWeight="Bold" Foreground="Gold" Height="40"/>
+
+                        <StackPanel Orientation="Horizontal" Spacing="20" HorizontalAlignment="Center">
+                            <Button Content="Pedir Carta" Click="BtnPedir_Click" Width="150"/>
+                            <Button Content="Plantarse" Click="BtnPlantarse_Click" Width="150"/>
+                        </StackPanel>
+                    </StackPanel>
+                </TabItem>
+
+                <TabItem Header="Ruleta">
+                    <StackPanel Margin="20" Spacing="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <TextBlock Text="Ruleta" FontSize="40" Foreground="LightGreen"/>
+                        
+                        <StackPanel Orientation="Horizontal" Spacing="10">
+                            <TextBlock  Text="Tu Apuesta:" VerticalAlignment="Center"/>
+
+                            <TextBox x:Name="txtApuestaRuleta" Width="100" Text="50"/>
+                        </StackPanel>
+
+                        <Border BorderBrush="Gray" BorderThickness="1" Padding="20" Margin="0,20">
+                            <StackPanel Orientation="Horizontal" Spacing="40">
+                                <StackPanel Spacing="10">
+                                    <RadioButton x:Name="rbNumero" GroupName="Ruleta" Content="Apostar a Numero (x5)" IsChecked="True"/>
+                                    <TextBox x:Name="txtNumRuleta" Width="80" Watermark="0-5"/>
+                                </StackPanel>
+
+                                <StackPanel Spacing="10">
+                                    <RadioButton x:Name="rbColor" GroupName="Ruleta" Content="Apostar a Color (x2)"/>
+                                    <ComboBox x:Name="cmbColor" SelectedIndex="0" Width="120">
+                                        <ComboBoxItem>Rojo</ComboBoxItem>
+                                        <ComboBoxItem>Negro</ComboBoxItem>
+                                        <ComboBoxItem>Verde</ComboBoxItem>
+                                    </ComboBox>
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+
+                        <Button Content="GIRAR RULETA" Click="BtnRuleta_Click" FontSize="24" Padding="30,10" Background="DarkRed"/>
+                        <TextBlock x:Name="txtResultadoRuleta" Text="" FontSize="28" FontWeight="Bold"/>
+                    </StackPanel>
+                </TabItem>
+
+                <TabItem Header="Dados">
+                    <StackPanel Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="20">
+                        <TextBlock Text="Dados" FontSize="40"/>
+                        
+                        <StackPanel Orientation="Horizontal" Spacing="10">
+                            <TextBlock Text="Apuesta:" VerticalAlignment="Center"/>
+                            <TextBox x:Name="txtApuestaDado" Width="100" Text="50"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Spacing="10">
+                            <TextBlock Text="Tu prediccion (2-12):" VerticalAlignment="Center"/>
+                            <TextBox x:Name="valordados" Width="100"/>
+                        </StackPanel>
+
+                        <Button Click="BtnDado_Click" Content="LANZAR" FontSize="30" Padding="30,10"/>
+                        
+                        <Border BorderBrush="White" BorderThickness="2" Padding="20">
+                            <StackPanel>
+                                <TextBlock Text="Resultado:" FontSize="20"/>
+                                <TextBlock x:Name="valorrealdado" Text="?" FontSize="60" FontWeight="Bold" Foreground="Cyan"/>
+                            </StackPanel>
+                        </Border>
+                        <TextBlock x:Name="txtResultadoDados" Text="" FontSize="20"/>
+                    </StackPanel>
+                </TabItem>
+
+                <TabItem Header="Tragamonedas">
+                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="30">
+                        <TextBlock Text="Tragamonedas" FontSize="40"/>
+                        
+                         <StackPanel Orientation="Horizontal" Spacing="10">
+                            <TextBlock Text="Apuesta:" VerticalAlignment="Center"/>
+                            <TextBox x:Name="txtApuestaTraga" Width="100" Text="50"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Spacing="20" HorizontalAlignment="Center">
+                            <Border BorderBrush="White" BorderThickness="2" Padding="20" Width="100" Height="150">
+                                <TextBlock x:Name="slot1" Text="7" FontSize="50" VerticalAlignment="Center"/>
+                            </Border>
+                            <Border BorderBrush="White" BorderThickness="2" Padding="20" Width="100" Height="150">
+                                 <TextBlock x:Name="slot2" Text="7" FontSize="50" VerticalAlignment="Center"/>
+                            </Border>
+                            <Border BorderBrush="White" BorderThickness="2" Padding="20" Width="100" Height="150">
+                                 <TextBlock x:Name="slot3" Text="7" FontSize="50" VerticalAlignment="Center"/>
+                            </Border>
+                        </StackPanel>
+                        <Button Content="JUGAR" Click="BtnTraga_Click" FontSize="30" Width="200"/>
+                        <TextBlock x:Name="txtResultadoSlot" Text="" FontSize="25"/>
+                    </StackPanel>
+                </TabItem>
+
+            </TabControl>
+        </Grid>
+    </Grid>
+</Window>
