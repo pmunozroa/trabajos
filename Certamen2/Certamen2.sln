@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Certamen2", "Certamen2.csproj", "{199F3F41-8ED9-4B7A-B253-B8E56E1ECEE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{199F3F41-8ED9-4B7A-B253-B8E56E1ECEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199F3F41-8ED9-4B7A-B253-B8E56E1ECEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199F3F41-8ED9-4B7A-B253-B8E56E1ECEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199F3F41-8ED9-4B7A-B253-B8E56E1ECEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ADF9BE9-FC2F-4559-88EF-6BE9E7B08614}
+	EndGlobalSection
+EndGlobal

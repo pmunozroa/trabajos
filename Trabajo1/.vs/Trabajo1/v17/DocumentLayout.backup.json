@@ -1,0 +1,210 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Repositorios\\Trabajo1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|e:\\repositorios\\trabajo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|e:\\repositorios\\trabajo1\\models\\artista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|solutionrelative:models\\artista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|e:\\repositorios\\trabajo1\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|solutionrelative:models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|e:\\repositorios\\trabajo1\\models\\teatro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|solutionrelative:models\\teatro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|e:\\repositorios\\trabajo1\\models\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|solutionrelative:models\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|e:\\repositorios\\trabajo1\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|e:\\repositorios\\trabajo1\\models\\trabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|solutionrelative:models\\trabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|e:\\repositorios\\trabajo1\\models\\humorista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|solutionrelative:models\\humorista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|e:\\repositorios\\trabajo1\\enum\\tipogrupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|solutionrelative:enum\\tipogrupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|e:\\repositorios\\trabajo1\\models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|solutionrelative:models\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|e:\\repositorios\\trabajo1\\models\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0410C33-FE8B-4C7A-BD8F-E45205BF4720}|Trabajo1.csproj|solutionrelative:models\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Teatro.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Trabajo1\\Models\\Teatro.cs",
+              "RelativeDocumentMoniker": "Models\\Teatro.cs",
+              "ToolTip": "E:\\Repositorios\\Trabajo1\\Models\\Teatro.cs",
+              "RelativeToolTip": "Models\\Teatro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:15:48.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Grupo.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Trabajo1\\Models\\Grupo.cs",
+              "RelativeDocumentMoniker": "Models\\Grupo.cs",
+              "ToolTip": "E:\\Repositorios\\Trabajo1\\Models\\Grupo.cs",
+              "RelativeToolTip": "Models\\Grupo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:15:48.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Trabajo1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Repositorios\\Trabajo1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:05:42.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Artista.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Trabajo1\\Models\\Artista.cs",
+              "RelativeDocumentMoniker": "Models\\Artista.cs",
+              "ToolTip": "E:\\Repositorios\\Trabajo1\\Models\\Artista.cs",
+              "RelativeToolTip": "Models\\Artista.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:13:40.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Entrada.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Trabajo1\\Models\\Entrada.cs",
+              "RelativeDocumentMoniker": "Models\\Entrada.cs",
+              "ToolTip": "E:\\Repositorios\\Trabajo1\\Models\\Entrada.cs",
+              "RelativeToolTip": "Models\\Entrada.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:12:04.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Compra.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Trabajo1\\Models\\Compra.cs",
+              "RelativeDocumentMoniker": "Models\\Compra.cs",
+              "ToolTip": "E:\\Repositorios\\Trabajo1\\Models\\Compra.cs",
+              "RelativeToolTip": "Models\\Compra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:12:04.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TipoGrupo.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Trabajo1\\Enum\\TipoGrupo.cs",
+              "RelativeDocumentMoniker": "Enum\\TipoGrupo.cs",
+              "ToolTip": "E:\\Repositorios\\Trabajo1\\Enum\\TipoGrupo.cs",
+              "RelativeToolTip": "Enum\\TipoGrupo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:11:15.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Humorista.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Trabajo1\\Models\\Humorista.cs",
+              "RelativeDocumentMoniker": "Models\\Humorista.cs",
+              "ToolTip": "E:\\Repositorios\\Trabajo1\\Models\\Humorista.cs",
+              "RelativeToolTip": "Models\\Humorista.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:09:29.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Trabajador.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Trabajo1\\Models\\Trabajador.cs",
+              "RelativeDocumentMoniker": "Models\\Trabajador.cs",
+              "ToolTip": "E:\\Repositorios\\Trabajo1\\Models\\Trabajador.cs",
+              "RelativeToolTip": "Models\\Trabajador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:09:29.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Trabajo1\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Models\\Cliente.cs",
+              "ToolTip": "E:\\Repositorios\\Trabajo1\\Models\\Cliente.cs",
+              "RelativeToolTip": "Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:09:29.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Trabajo1\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "Models\\Persona.cs",
+              "ToolTip": "E:\\Repositorios\\Trabajo1\\Models\\Persona.cs",
+              "RelativeToolTip": "Models\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T23:08:29.691Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

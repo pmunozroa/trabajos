@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Repositorios\\Test1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5F309C-B975-44A6-A9B1-7C1BBD69833F}|Test1.csproj|e:\\repositorios\\test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5F309C-B975-44A6-A9B1-7C1BBD69833F}|Test1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5F309C-B975-44A6-A9B1-7C1BBD69833F}|Test1.csproj|e:\\repositorios\\test1\\domain\\implementation\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5F309C-B975-44A6-A9B1-7C1BBD69833F}|Test1.csproj|solutionrelative:domain\\implementation\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5F309C-B975-44A6-A9B1-7C1BBD69833F}|Test1.csproj|e:\\repositorios\\test1\\domain\\implementation\\rector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5F309C-B975-44A6-A9B1-7C1BBD69833F}|Test1.csproj|solutionrelative:domain\\implementation\\rector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5F309C-B975-44A6-A9B1-7C1BBD69833F}|Test1.csproj|e:\\repositorios\\test1\\domain\\implementation\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5F309C-B975-44A6-A9B1-7C1BBD69833F}|Test1.csproj|solutionrelative:domain\\implementation\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5F309C-B975-44A6-A9B1-7C1BBD69833F}|Test1.csproj|e:\\repositorios\\test1\\domain\\implementation\\facultad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5F309C-B975-44A6-A9B1-7C1BBD69833F}|Test1.csproj|solutionrelative:domain\\implementation\\facultad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5F309C-B975-44A6-A9B1-7C1BBD69833F}|Test1.csproj|e:\\repositorios\\test1\\domain\\implementation\\universidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5F309C-B975-44A6-A9B1-7C1BBD69833F}|Test1.csproj|solutionrelative:domain\\implementation\\universidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Universidad.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Test1\\Domain\\Implementation\\Universidad.cs",
+              "RelativeDocumentMoniker": "Domain\\Implementation\\Universidad.cs",
+              "ToolTip": "E:\\Repositorios\\Test1\\Domain\\Implementation\\Universidad.cs",
+              "RelativeToolTip": "Domain\\Implementation\\Universidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:40:14.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Facultad.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Test1\\Domain\\Implementation\\Facultad.cs",
+              "RelativeDocumentMoniker": "Domain\\Implementation\\Facultad.cs",
+              "ToolTip": "E:\\Repositorios\\Test1\\Domain\\Implementation\\Facultad.cs",
+              "RelativeToolTip": "Domain\\Implementation\\Facultad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:40:14.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Test1\\Domain\\Implementation\\Persona.cs",
+              "RelativeDocumentMoniker": "Domain\\Implementation\\Persona.cs",
+              "ToolTip": "E:\\Repositorios\\Test1\\Domain\\Implementation\\Persona.cs",
+              "RelativeToolTip": "Domain\\Implementation\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:35:18.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rector.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Test1\\Domain\\Implementation\\Rector.cs",
+              "RelativeDocumentMoniker": "Domain\\Implementation\\Rector.cs",
+              "ToolTip": "E:\\Repositorios\\Test1\\Domain\\Implementation\\Rector.cs",
+              "RelativeToolTip": "Domain\\Implementation\\Rector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:34:35.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profesor.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Test1\\Domain\\Implementation\\Profesor.cs",
+              "RelativeDocumentMoniker": "Domain\\Implementation\\Profesor.cs",
+              "ToolTip": "E:\\Repositorios\\Test1\\Domain\\Implementation\\Profesor.cs",
+              "RelativeToolTip": "Domain\\Implementation\\Profesor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:34:35.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Repositorios\\Test1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Repositorios\\Test1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T22:31:22.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

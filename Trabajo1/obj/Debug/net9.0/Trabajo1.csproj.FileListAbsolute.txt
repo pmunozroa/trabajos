@@ -1,0 +1,14 @@
+E:\Repositorios\Trabajo1\bin\Debug\net9.0\Trabajo1.exe
+E:\Repositorios\Trabajo1\bin\Debug\net9.0\Trabajo1.deps.json
+E:\Repositorios\Trabajo1\bin\Debug\net9.0\Trabajo1.runtimeconfig.json
+E:\Repositorios\Trabajo1\bin\Debug\net9.0\Trabajo1.dll
+E:\Repositorios\Trabajo1\bin\Debug\net9.0\Trabajo1.pdb
+E:\Repositorios\Trabajo1\obj\Debug\net9.0\Trabajo1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repositorios\Trabajo1\obj\Debug\net9.0\Trabajo1.AssemblyInfoInputs.cache
+E:\Repositorios\Trabajo1\obj\Debug\net9.0\Trabajo1.AssemblyInfo.cs
+E:\Repositorios\Trabajo1\obj\Debug\net9.0\Trabajo1.csproj.CoreCompileInputs.cache
+E:\Repositorios\Trabajo1\obj\Debug\net9.0\Trabajo1.dll
+E:\Repositorios\Trabajo1\obj\Debug\net9.0\refint\Trabajo1.dll
+E:\Repositorios\Trabajo1\obj\Debug\net9.0\Trabajo1.pdb
+E:\Repositorios\Trabajo1\obj\Debug\net9.0\Trabajo1.genruntimeconfig.cache
+E:\Repositorios\Trabajo1\obj\Debug\net9.0\ref\Trabajo1.dll
